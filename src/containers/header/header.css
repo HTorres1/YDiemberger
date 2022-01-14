@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+}
+
+.header {
+  background: url("../../../public/media/img/20171220_065117.jpg") no-repeat
+    center center;
+  background-size: cover;
+  height: 520px;
+  text-align: center;
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  color: #fff;
+  line-height: 100px;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-family: "Licorice", cursive;
+  font-weight: 15;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
