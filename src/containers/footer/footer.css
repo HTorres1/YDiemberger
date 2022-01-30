@@ -1,0 +1,29 @@
+.footer {
+  background: #000;
+  height: 50px;
+  padding-bottom: 50px;
+  position: absolute;
+  bottom: -10%;
+  width: 100%;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+}
+
+.icon {
+  size: 2x;
+}
+.footer .container{
+  margin-top: 2%; 
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
+}

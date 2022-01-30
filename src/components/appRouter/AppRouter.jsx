@@ -7,6 +7,8 @@ import PHD from "../phd/PHD";
 import NGO from "../ngo/NGO";
 import Gallery from "../gallery/Gallery";
 import Contact from "../contact/Contact";
+import Teaching from "../teaching/Teaching";
+import News from "../news/News";
 
 
 const AppRouter = () => {
@@ -19,6 +21,8 @@ const AppRouter = () => {
       <Route exact path="/ngo" element={<NGO />} />
       <Route exact path="/gallery" element={<Gallery />} />
       <Route exact path="/contact" element={<Contact />} />
+      <Route exact path="/teaching" element={<Teaching />} />
+      <Route exact path="/news" element={<News />} />
     </Routes>
   );
 };

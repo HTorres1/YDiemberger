@@ -5,11 +5,12 @@
 }
 
 .header {
-  background: url("../../../public/media/img/20171220_065117.jpg") no-repeat
+  background: url("../../media/img/20171220_065117.jpg") no-repeat
     center center;
   background-size: cover;
   height: 520px;
   text-align: center;
+  color: #fff;
 }
 
 .header .container {

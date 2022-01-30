@@ -1,7 +1,7 @@
 .container {
     margin: 0 auto;
     max-width: 940px; 
-    padding: 0 10px;
+    padding: 0 10px;   
   }
 
 .nav { 
@@ -9,6 +9,8 @@
     height: 80px; 
     width: 100%;
     text-align: center;
+    position: fixed;
+    top: 0;
   }
 
   .nav ul {
@@ -29,9 +31,12 @@
   }
   
   .btn:hover, .nav ul li:hover {
-    background: #117bff;
+    text-decoration: underline;
+    background: #0655b4; 
     cursor: pointer; 
-    transition: background .5s;  
+    transition: background .5s; 
+    transition:  underline 5s;
+    cursor: pointer;
   }
 
   .noselect {
@@ -43,4 +48,12 @@
     user-select: none; /* Non-prefixed version, currently
                                       supported by Chrome, Edge, Opera and Firefox */
   }
-  
+
+  /* .under {
+    display: grid;
+  }
+ 
+  .up li{
+    display: inline-block;
+    top: 0;
+  } */

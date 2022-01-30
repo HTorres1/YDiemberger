@@ -1,0 +1,29 @@
+
+.text{
+    margin: 0% 20%;
+    padding: 0% 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.img{
+    height: 150px;
+    padding: 55px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.odd{
+    float: left;
+}
+
+.pair{
+    float: right;
+}
