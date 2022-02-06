@@ -11,6 +11,7 @@
     text-align: center;
     position: fixed;
     top: 0;
+    z-index: 1
   }
 
   .nav ul {
@@ -49,6 +50,10 @@
                                       supported by Chrome, Edge, Opera and Firefox */
   }
 
+  /* .hola{
+    color: white;
+    float: left;
+  } */
   /* .under {
     display: grid;
   }

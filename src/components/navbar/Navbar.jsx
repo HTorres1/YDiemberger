@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
-  const [dropdown, setDropdown] = useState(false); 
+  /* const [dropdown, setDropdown] = useState(false);  */
 
   return (
     <div className="nav">
       <div className="container">
+       {/*  <div className="hola">Holaa</div> */}
         <ul>
           <Link to="/">
             <li className="noselect" link to="/">
@@ -22,8 +23,8 @@ const Navbar = () => {
           <Link to="/PHD">
             <li
               className="noselect"
-              onMouseEnter={() => setDropdown(true)}
-              onMouseLeave={() => setDropdown(false)}              
+              /* onMouseEnter={() => setDropdown(true)}
+              onMouseLeave={() => setDropdown(false)}         */      
             >
               PHD/Research
             </li>
@@ -37,11 +38,11 @@ const Navbar = () => {
           <Link to="/news">
             <li className="noselect">News and Currently activiy</li>
           </Link>
-          <Link to="/gallery">
+          {/* <Link to="/gallery">
             <li className="noselect">Gallery</li>
-          </Link>
+          </Link> */}
           <Link to="/contact">
-            <li className="noselect">Contanct</li>
+            <li className="noselect">Contact</li>
           </Link>
         </ul>
       </div>

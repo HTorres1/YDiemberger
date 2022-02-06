@@ -1,0 +1,14 @@
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding-top: 20px;
+}
+h1{
+    margin: 1% 16%;
+}
+
+/* ideal size for this one */
+/* #horsedog{
+    height: 700px;
+} */
