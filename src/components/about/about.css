@@ -1,13 +1,13 @@
 
 .text{
-    margin: 0% 20%;
-    padding: 0% 5%;
+    margin: 1% 16%;
+    padding: 1% 0%;
     text-align: justify;
     text-justify: inter-word;
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
     align-content: space-around;
     align-items: center;
     font-size: 1.2rem;
@@ -15,9 +15,9 @@
 
 .img{
     height: 150px;
-    padding: 55px;
+    padding: 10px;
     display: flex;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .odd{
@@ -26,4 +26,11 @@
 
 .pair{
     float: right;
+}
+
+.col>[className^="col-"]{
+    border: 1px solid red;
+}
+.row{
+    border: 1 px solid blue;
 }

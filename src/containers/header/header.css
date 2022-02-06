@@ -4,14 +4,14 @@
   padding: 0 10px;
 }
 
-.header {
-  background: url("../../media/img/20171220_065117.jpg") no-repeat
+ .header {
+  background: url("../../media/img/22770839_10154784083416637_809336631829498962_o_v4.jpg") no-repeat
     center center;
   background-size: cover;
-  height: 520px;
+  height: 863px;
   text-align: center;
   color: #fff;
-}
+} 
 
 .header .container {
   position: relative;
@@ -36,4 +36,8 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
+}
+
+.homepres{
+  text-align: right;
 }
