@@ -1,7 +1,5 @@
 
 .text{
-    margin: 1% 16%;
-    padding: 1% 0%;
     text-align: justify;
     text-justify: inter-word;
     /* display: flex; */
@@ -10,7 +8,10 @@
     /* flex-direction: row; */
     align-content: space-around;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 20px;
+    font-weight: 400;
+    /* color: rgba(0, 0, 0, 0.8) */
+    color: rgb(222, 226, 230);
 }
 
 .img{
@@ -28,9 +29,9 @@
     float: right;
 }
 
-.col>[className^="col-"]{
+/* .col>[className^="col-"]{
     border: 1px solid red;
 }
 .row{
     border: 1 px solid blue;
-}
+} */

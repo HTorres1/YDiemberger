@@ -1,16 +1,15 @@
+import { t } from "i18next";
 import React from "react";
 import "./news.css";
 
 const News = () => {
   return (
-    <div>
-      <h1>What I’m doing at the moment</h1>
-      <div className="text">
-        I am currently undertaking preliminary research in Argentina. I continue
-        to offer horse-related services depending on your location [link to
-        other page], and virtual language classes [link to other page]. Please
-        email me for more information.
-      </div>
+    <div className="container-md">
+      <h1>{t("news.new_t1")}</h1>
+      <div className="row justify-content-md-center"></div>
+      <div 
+        dangerouslySetInnerHTML={{ __html: t("news.new_p1") }}
+        className="col col-sm-12 text"/>
     </div>
   );
 };
