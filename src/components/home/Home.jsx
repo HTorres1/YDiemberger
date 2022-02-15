@@ -5,32 +5,31 @@ import yancenSmile from "../../media/img/22770839_10154784083416637_809336631829
 import i18next, { t } from "i18next";
 import { useTranslation } from "react-i18next";
 
-
 const Home = () => {
-  
-  const {t, i18n} = useTranslation();
+  const { t, i18n } = useTranslation();
 
-   function changeToSpanish () {
+  function changeToSpanish() {
     i18n.changeLanguage("es");
-  } 
+  }
 
-  function changeToEnglish () {
+  function changeToEnglish() {
     i18n.changeLanguage("en");
   }
 
   return (
     <>
       <Header />
-      <div className="container text">
-        <img className="img" src={yancenSmile} alt="Yancen Smiling"/>
+      {/*<div className="container text">
+        <img className="img" src={yancenSmile} alt="Yancen Smiling" />
         <strong>
-        {t("home.welcome")} {" "}<a href="mailto:yd308@exeter.ac.uk">yd308@exeter.ac.uk</a>
+          {t("home.welcome")}{" "}
+          <a href="mailto:yd308@exeter.ac.uk">yd308@exeter.ac.uk</a>
         </strong>
-        {/* To check the current language: */}
+        
         <p>Idioma acutal: {i18next.language}</p>
         <button onClick={changeToEnglish}>Cambiar a ingles</button>
         <button onClick={changeToSpanish}>Cambiar a español</button>
-      </div>
+  </div>*/}
     </>
   );
 };

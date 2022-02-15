@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   margin-top: 100x;
   scroll-behavior: smooth;
 }
@@ -23,8 +23,48 @@ html {
 
 .container-md{
   background-color: rgb(31, 36, 40);
+  padding: 0%;
+}
+.row{
+  padding: 0 30px;
 }
 
 h1, h2{
-  color: rgb(255, 255, 255);
+  color: rgb(222, 226, 230);
+  margin-top: 20px!important;
+  margin-bottom: 20px;
+}
+/* 
+col {
+  margin-top: 20px;
+} */
+
+
+
+a {
+  color: rgb(156, 115, 33);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(156, 115, 33);
+  /* text-decoration: underline;
+  transition: underline 1s; */
+  font-style: oblique;
+}
+
+.text{
+  text-align: justify;
+  text-justify: inter-word;
+  /* display: flex; */
+  justify-content: space-evenly;
+  /* flex-wrap: nowrap; */
+  /* flex-direction: row; */
+  align-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 300;
+  /* color: rgba(0, 0, 0, 0.8) */
+  color: rgb(222, 226, 230);
+  margin-top: 25px;
 }

@@ -14,6 +14,21 @@
     z-index: 1
   }
 
+  @media (max-width: 700px) {
+    .nav{
+      height: 160px;
+    }
+  } 
+
+  .change{
+    color: white;        
+    margin: 26px 38px -2px -31px;    
+  }
+
+  .change:hover{
+    cursor: pointer;
+  }
+
   .nav ul {
     height: 80px;
     list-style: none;
@@ -66,6 +81,10 @@
     filter: grayscale(5%);
     transition: height .5s, filter .6s;
     transition-timing-function: linear;
+  }
+
+  #navbar{
+    width: 710px;
   }
 
   /* .hola{

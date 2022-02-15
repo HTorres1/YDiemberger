@@ -14,15 +14,15 @@ import News from "../news/News";
 const AppRouter = () => {
   return (
     <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route exact path="/about" element={<About />} />
-      <Route exact path="/blog" element={<Blog />} />
-      <Route exact path="/phd" element={<PHD />} />
-      <Route exact path="/ngo" element={<NGO />} />
-      <Route exact path="/gallery" element={<Gallery />} />
-      <Route exact path="/contact" element={<Contact />} />
-      <Route exact path="/teaching" element={<Teaching />} />
-      <Route exact path="/news" element={<News />} />
+      <Route /* exact */ path="/" element={<Home />} />
+      <Route /* exact */ path="/about" element={<About />} />
+      <Route /* exact */ path="/blog" element={<Blog />} />
+      <Route /* exact */ path="/phd" element={<PHD />} />
+      <Route /* exact */ path="/ngo" element={<NGO />} />
+      <Route /* exact */ path="/gallery" element={<Gallery />} />
+      <Route /* exact */ path="/contact" element={<Contact />} />
+      <Route /* exact */ path="/teaching" element={<Teaching />} />
+      <Route /* exact */ path="/news" element={<News />} />
     </Routes>
   );
 };
