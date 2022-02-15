@@ -5,12 +5,14 @@
 }
 
  .header {
-  background: url("../../media/img/22770839_10154784083416637_809336631829498962_o_v4.jpg") no-repeat
+  background: url("../../media/img/YancenLighthouse.jpeg") no-repeat
+  /* background: url("../../media/img/IMG_20220130_112448.jpg") no-repeat */
     center center;
   background-size: cover;
-  height: 863px;
+  height: 900px;
   text-align: center;
   color: #fff;
+  margin-top: -20px;
 } 
 
 .header .container {
@@ -18,16 +20,42 @@
   top: 200px;
 }
 
-.header h1 {
+#name {
   color: #fff;
   line-height: 100px;
   font-size: 80px;
   margin-top: 0;
-  margin-bottom: 80px;
-  font-family: "Licorice", cursive;
+  margin-bottom: 80px;  
+  /* font-family: 'Oooh Baby', cursive; */
   font-weight: 15;
+  margin-right: -105px;
+  /* font-family: "Licorice", cursive; */
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'La Belle Aurore', cursive;
 }
 
+#hometext{
+  margin-right: 100px;
+  text-align: right;
+  
+}
+
+#welcome{
+  text-align: right;
+  margin-top: 60px;
+  margin-left: 180px;
+  font-weight: 400;
+  color: white;
+}
+
+#welcome a{
+  color: rgb(229, 178, 27);
+}
+
+#hello{
+  padding-right: 80px!important;
+  color: white;
+}
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -38,6 +66,6 @@
                                     supported by Chrome, Edge, Opera and Firefox */
 }
 
-.homepres{
-  text-align: right;
-}
+/* .homepres{
+  
+} */

@@ -1,16 +1,6 @@
 
-.text{
-    margin: 1% 16%;
-    padding: 1% 0%;
-    text-align: justify;
-    text-justify: inter-word;
-    /* display: flex; */
-    justify-content: space-evenly;
-    /* flex-wrap: nowrap; */
-    /* flex-direction: row; */
-    align-content: space-around;
-    align-items: center;
-    font-size: 1.2rem;
+#about_last{
+    padding-bottom: 30px;
 }
 
 .img{
@@ -18,19 +8,41 @@
     padding: 10px;
     display: flex;
     border-radius: 10%;
+    white-space: nowrap;
+    vertical-align: top;
 }
 
-.odd{
+/* .odd{
     float: left;
 }
 
 .pair{
     float: right;
+} */
+
+#Young {
+    float: left; 
+    width: 30%;
+    white-space: nowrap;
+    display: inline;
+    /* vertical-align: top; */
 }
 
-.col>[className^="col-"]{
+#YancenDancing{
+    margin: 102px 0;
+}
+
+#YancenClimbingGym{
+    margin: 70px 0;
+}
+
+.panoramix{
+    margin: 35px -42px;
+}
+
+/* .col>[className^="col-"]{
     border: 1px solid red;
 }
 .row{
     border: 1 px solid blue;
-}
+} */

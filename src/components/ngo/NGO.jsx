@@ -3,136 +3,131 @@ import "./ngo.css";
 import dalai from "../../media/img/IMG_20220109_151846.jpg";
 import dawa from "../../media/img/Collage_20220109_151058.jpg";
 import stories from "../../media/img/banjakri copertina.jpg";
-import fundraising from "../../media/img/IMG_20200718_193149.jpg";
+import fundraising2 from "../../media/img/IMG_20200718_193149.jpg";
+import fundraising from "../../media/img/MammaPerDawa.jpg";
+import limi from "../../media/img/Pano/limi.jpg";
+/* import Earhquake from "../../media/img/NepalEarthquake.JPG"; */
+import Earhquake from "../../media/img/NepalEarthquake2.JPG";
+/* import Earhquake from "../../media/img/NepalEarthquake3.JPG"; */
+import pano from "../../media/img/Pano/MountainFlags2.jpg";
+import school from "../../media/img/NagaarkotLesson.jpg";
+
+
+
+import { t } from "i18next";
 
 const NGO = () => {
   return (
-    <div>
-      <div className="text">
-        <img className="img pair" src={dalai} alt="Yancen Dalai" />
-        My main NGO involvement began in 2013 with{" "}
-        <a href="https://www.ecohimal.it/" target="_blank">
-          EcoHimal
-        </a>
-        , an international NGO that works on social and environmental issues.
-        They are mostly active in Himalayan regions and use a bottom-up approach
-        to development. I began by connecting the organization with potential
-        project ideas in the areas where I worked as an English teacher. I then
-        helped design and bring some projects to life. Now, I am one of their
-        project officers: When in Nepal I review and report how projects are
-        going, I propose new project ideas and help to design them, and I
-        continue to carry out English language teaching on their behalf. At the
-        start of EcoHimal’s activities, the Dalai Lama gave the newly born
-        organization a blessing. In 2017 I attended a conference of the{" "}
-        <a href="https://mixedtibetans.net/" target="_blank">
-          Tibetans of Mixed Heritage
-        </a>
-        , where I was able to renew that blessing.
+    <div className="container-md">
+      <img className="panorama" id="top" src={pano} alt="Panorama" />
+      <div className="row justify-content-md-center">
+        <img
+          className="col col-lg-5 nowrap"
+          id="dalai"
+          src={dalai}
+          alt="Yancen Dalai"
+        />
+        <p
+          dangerouslySetInnerHTML={{ __html: t("ngo.ngo_p1") }}
+          className="col col-lg-7 text"
+        />
       </div>
-      <h1>My work with EcoHimal includes the following:</h1>
+      <h1 className="col col-lg-12">{t("ngo.ngo_t1")}</h1>
+      <div className="row justify-content-md-center">
+        
+          <h2 className="col col-lg-12">{t("ngo.ngo_t2")}</h2>
+          </div>
+          <div className="row justify-content-md-center">
+          <div
+            dangerouslySetInnerHTML={{ __html: t("ngo.ngo_p2") }}
+            className="col col-lg-7 text"
+          />
+          <img
+          id="school"
+          className="col col-lg-5 nowrap"
+          src={school}
+          alt="School"
+        />
+          {/* <video width="320" height="240" className="col col-lg-4">
+            <source
+              src="../../media/vid/DhikureAndSteepleMordenSchool.mp4"
+              type="video/mp4"
+            ></source>
+          </video> */}
+        
+      </div>
+      <div className="row justify-content-md-center">
+        <h2 className="col col-lg-12 nowrap">{t("ngo.ngo_t3")}</h2>
+        <img
+          className="col col-lg-5 nowrap"
+          id="dawa"
+          src={dawa}
+          alt="Baby Dawa"
+        />
+        <div
+          dangerouslySetInnerHTML={{ __html: t("ngo.ngo_p3") }}
+          className="col col-lg-7 text"
+        />
+      </div>
+      <div className="row justify-content-md-center">
+        <div>
+          <h2 className="col col-lg-12 nowrap">{t("ngo.ngo_t4")}</h2>
+        </div>
+        <div className="row justify-content-md-center">
+          <div
+            dangerouslySetInnerHTML={{ __html: t("ngo.ngo_p4") }}
+            className="col col-lg-7 text"
+          />
+          <img
+            className="col col-lg-5 nowrap"
+            src={Earhquake}
+            alt="Nepal Earthquake"
+          />
+        </div>
+      </div>
 
-      <div className="text">
-        <h2>Schools connections</h2>
-        <br /> During our first collaboration, EcoHimal supported a course of
-        English Language teaching at Dhikure primary school. In this, I taught
-        English with emphasis on environment related topics. We then set up a
-        skype connection between the Nepali school and two other schools in
-        Italy and the UK. The children shared information on their environment
-        and began a pen-pal relationship that continues today. This was done as
-        part of the “Pathways to Understanding the Changing Climate” in
-        partnership with{" "}
-        <a href="https://www.miasu.socanth.cam.ac.uk/" target="_blank">
-          MIASU
-        </a>{" "}
-        and the Department of Social Anthropology and the Faculty of Education
-        at the University of Cambridge.
+      <div className="row justify-content-md-center">
+        <h2 className="col col-lg-12 nowrap">{t("ngo.ngo_t5")}</h2>
       </div>
-
-      <div className="text">
-        <img className="img odd" src={dawa} alt="Baby Dawa" />
-        <h2>Baby Dawa</h2>
-        <br /> One day, after the international school connections day had
-        ended, we walked the usual one and half hour path home from Dhikure
-        Primary school. Due to an unforeseeable and unfortunate series of
-        events, in the following 12 hours I held an infant for the first moments
-        of his life, and I held his mother for the last breaths of hers. Having
-        no-way of sustainably feeding the child, together with the child’s
-        family we decided to travel to Kathmandu Hospital – 8 hours by foot and
-        18 hours by jeep away. We arrived in Kathmandu and in the hospital the
-        baby quickly grew stronger. We also set up a small fund to support baby
-        Dawa in his childhood and studies, and I continue to visit him whenever
-        possible.
+      <div className="row justify-content-md-center">
+        <img
+          className="col col-lg-5 nowrap"
+          src={stories}
+          alt="Collecting stories"
+        />
+        <div
+          dangerouslySetInnerHTML={{ __html: t("ngo.ngo_p5") }}
+          className="col col-lg-7 text"
+        />
       </div>
-      <div className="text">
-        <h2>Earthquake</h2>
-        <br /> It was April 2015 and my flight to Kathmandu was two days away.
-        As I was doing my online check-in I got news of the earthquake. When I
-        finally reached our project sites it was clear there was much to be
-        done. We slept in tents and cowhouses, moving across the valley from
-        village to village. We helped how we could and made a report on how best
-        to channel funds into potential projects. The vast influx of foreign
-        money meant that financial bureaucracy became extremely complicated. We
-        therefore helped our local friends to make an organization{" "}
-        <a href="https://ninehills.org.np/" target="_blank">
-          “Okhaldhunga Nine Hills Association”
-        </a>{" "}
-        who could act as our counterparts and collaborators on the ground.
-        Together, we re-built various schools, homes, and carried out water
-        purity tests on different springs.
+      <div className="row justify-content-md-center">
+        <h2 className="col col-lg-12">{t("ngo.ngo_t6")}</h2>
       </div>
-      <div className="text">
-        <h2>Collecting stories</h2>
-        <br /> Throughout several years of projects in this area, our day-long
-        walks were often accompanied by stories of local folklore. Together with
-        children from different primary schools and with the help of village
-        elders, we collected some stories. These stories were then written in
-        Italian, illustrated, published (by{" "}
-        <a href="www.alpinestudio.it" target="_blank" target="_blank">
-          Alpinestudio
-        </a>
-        ), and sold to raise funds. The funds were then used to translate and
-        print a bi-lingual (Nepali-English) edition with{" "}
-        <a href="https://www.vajrabookshop.com/" target="_blank">
-          Vajra Publications
-        </a>
-        , which was finally brought back to the libraries of the schools from
-        where the stories originally came. Both editions of these books are now
-        available from Vajra Publications, from Eco Himal and{" "}
-        <a
-          href="https://www.pilgrimsonlineshop.com/7022-the-spirits-of-the-forest-a-short-story-between-reality-and-fantasy.html"
-          target="_blank"
-        >
-          online
-        </a>
-        .
-        <img className="img pair" src={stories} alt="Collecting stories" />
+      <div className="row justify-content-md-center">
+        <div
+          dangerouslySetInnerHTML={{ __html: t("ngo.ngo_p6") }}
+          className="col col-lg-12 text"
+        />
       </div>
-      <div className="text">
-        <h2>Limi</h2>
-        <br /> In Autumn 2018 I assisted a trip to Limi valley in Humla as part
-        of the “Himal-connect project”, a research and impact scheme of the
-        University of Oslo and the University of Cambridge. While there, I
-        carried out English language and environmental care workshops at some
-        local primary schools. As the area is so remote, Limi valley struggles
-        to retain its teachers, and governmental schooling material often
-        doesn’t get there. Following a request from the villagers, EcoHimal
-        decided to provide the wages of an additional teacher, and to provide
-        some basic school supplies.
+      <div className="row justify-content-md-center panoramix">
+        <img className="col col-lg-12 nowrap" src={limi} alt="Fundraising" />
       </div>
-      <div className="text">
-        <img className="img odd" src={fundraising} alt="Fundraising" />
-        <h2>Fundraising</h2>
-        <br /> I also collaborate with EcoHimal while in Europe, talking at
-        fundraisers and carrying out workshops in schools. In 2016 I was a
-        delegate in a Curriculum Workshop which was part of the AHRC funded
-        project: Pathways to Understanding the Changing Climate. I presented
-        what we had done in terms of the school’s connection [link above]
-        between Nepal, Italy and the UK. This was done in collaboration with{" "}
-        <a href="https://www.miasu.socanth.cam.ac.uk/" target="_blank">
-          MIASU
-        </a>
-        , the Department of Social Anthropology, and the Faculty of Education at
-        the University of Cambridge.
+      <div className="row justify-content-md-center ngolast">
+        <h2 className="col col-lg-12 nowrap">{t("ngo.ngo_t7")}</h2>
+        <img
+          className="col col-lg-5 nowrap"
+          src={fundraising2}
+          alt="Fundraising"
+        />
+        <div
+          dangerouslySetInnerHTML={{ __html: t("ngo.ngo_p7") }}
+          className="col col-lg-7 text"
+        />
+        {/* <img
+          className="col col-lg-6 nowrap"
+          src={fundraising2}
+          alt="Fundraising"
+        /> */}
       </div>
     </div>
   );

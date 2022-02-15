@@ -5,13 +5,28 @@
   }
 
 .nav { 
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
     height: 80px; 
     width: 100%;
     text-align: center;
     position: fixed;
     top: 0;
     z-index: 1
+  }
+
+  @media (max-width: 700px) {
+    .nav{
+      height: 160px;
+    }
+  } 
+
+  .change{
+    color: white;        
+    margin: 26px 38px -2px -31px;    
+  }
+
+  .change:hover{
+    cursor: pointer;
   }
 
   .nav ul {
@@ -28,16 +43,16 @@
     line-height: 80px; 
     list-style: none;
     padding: 0 10px;
-    transition: background .5s; 
+    transition: background .5s;
+    font-weight: 400; 
   }
   
   .btn:hover, .nav ul li:hover {
     text-decoration: underline;
-    background: #0655b4; 
+    background: rgba(6, 108, 180, 0.7);
     cursor: pointer; 
     transition: background .5s; 
     transition:  underline 5s;
-    cursor: pointer;
   }
 
   .noselect {
@@ -48,6 +63,28 @@
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently
                                       supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  #spa, #uk, #usa{
+    height: 25px;
+    margin: 15px;
+    filter: grayscale(35%);
+    margin-top: 25px;
+    line-height: 80px; 
+  }
+
+  #spa:hover, #uk:hover, #usa:hover{
+    height: 30px;
+    /*width: 35px;*/
+    cursor: pointer;
+    /*transition: height .5s;*/
+    filter: grayscale(5%);
+    transition: height .5s, filter .6s;
+    transition-timing-function: linear;
+  }
+
+  #navbar{
+    width: 710px;
   }
 
   /* .hola{
