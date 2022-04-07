@@ -14,9 +14,15 @@
     z-index: 1
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 785px) {
     .nav{
       height: 160px;
+    }
+    body {
+      padding-top: 160px;
+    }
+    #lang{
+      margin-left: 60px;
     }
   } 
 
@@ -85,6 +91,16 @@
 
   #navbar{
     width: 710px;
+  }
+
+  @media (max-width: 785px) {
+    #navbar{
+      margin: 0 1px;
+    }
+  }
+
+  #lang{
+    margin-top: 25px;
   }
 
   /* .hola{

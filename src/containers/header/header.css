@@ -15,6 +15,13 @@
   margin-top: -20px;
 } 
 
+@media (max-width: 350px) {
+  .header{
+    margin-right: -55px;
+    
+  }
+}
+
 .header .container {
   position: relative;
   top: 200px;
@@ -35,7 +42,7 @@
 }
 
 #hometext{
-  margin-right: 100px;
+  margin-right: 0px;
   text-align: right;
   
 }
@@ -43,7 +50,7 @@
 #welcome{
   text-align: right;
   margin-top: 60px;
-  margin-left: 180px;
+  margin-left: 200px;
   font-weight: 400;
   color: white;
 }
@@ -53,7 +60,7 @@
 }
 
 #hello{
-  padding-right: 80px!important;
+  padding-right: 232px;
   color: white;
 }
 .noselect {
@@ -66,6 +73,44 @@
                                     supported by Chrome, Edge, Opera and Firefox */
 }
 
+@media (max-width: 991px) {
+  #welcome{
+    /* margin-right: 0px; */
+    margin-left: 270px;
+    margin-top: 0px;
+  }
+  #hello{
+    padding-right: 120px;
+  }
+}
+
+@media (max-width: 830px) {
+  #welcome{
+    /* margin-right: 0px; */
+    margin-left: 240px;
+  }
+  #hello{
+    padding-right: 96px;
+  }
+}
+
+@media (max-width: 700px) {
+  #hometext{
+    padding-right: 60px;
+  }
+  #welcome{
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  #welcome{
+    margin-left: 25px;
+  }
+  #hometext{
+    padding-right: 0px;
+  }
+}
 /* .homepres{
   
 } */

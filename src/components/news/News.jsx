@@ -14,6 +14,8 @@ const News = () => {
 
         <div className="col col-sm-12 text">          
           {t("news.news_p1")}
+          <a href='https://instagram.com/yancen_diemberger' target='_blank'>{t("news.news_p1f")}</a>
+          {t("news.news_p1g")}
           <Link to="/teaching"><a>{t("news.news_p1a")}</a></Link>
           {t("news.news_p1b")}
           <Link to="/teaching"><a>{t("news.news_p1c")}</a></Link>

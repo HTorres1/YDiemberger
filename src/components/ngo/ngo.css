@@ -13,3 +13,53 @@
 #school{
     margin: 40px 0;
 }
+
+#earthquake{
+    margin: 25px 0;
+}
+
+@media (max-width: 1399px) {
+    #dalai{
+        height: 100%;
+        margin-top: 60px;
+    }
+    #school{
+        height: 100%;
+        margin-top:70px;
+    }
+    #dawa{
+        height: 100%;
+        margin-top: 40px;
+    }
+    #stories{
+        height: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #dalai{
+        margin-top: 65px;
+    }
+    #school{
+        height: 100%;
+        margin-top:70px;
+    }
+    #dawa{
+        height: 100%;
+        margin-top: 40px;
+    }
+    #stories{
+        height: 100%;
+        margin-top: 40px;
+    }
+    #earthquake{
+        height: 65%;
+        margin-top: 40px;
+    }
+    #fundraising{
+        height: 100%;
+        margin-top: 40px;
+    }
+
+}

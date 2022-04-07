@@ -27,3 +27,17 @@
   justify-content: space-around;
   align-items: center;
 }
+
+@media (max-width: 350px) {
+  .footer{
+    width: 120%;
+  }
+}
+
+#hugo{
+  position: absolute;
+  right: 15px;
+  color: white;
+  font-size: 13px;
+  bottom: 6px;
+}

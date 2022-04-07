@@ -42,7 +42,7 @@ const Teaching = () => {
       <div className="row justify-content-md-center">
         <h1 className="col col-lg-12">{t("teaching.teach_t2")}</h1>
         <img
-          className="col col-xl-5 teachingOnTheDirt"
+          className="col col-lg-5 teachingOnTheDirt"
           src={studyondirt}
           alt="Studying on the dirt"
         />
@@ -101,7 +101,7 @@ const Teaching = () => {
           className="col col-xl-6 text"
         />
         <img
-          className="col col-xl-6"
+          className="col col-lg-6"
           id="horseplains"
           src={horseontheplains}
           alt="Horse on the plains"
@@ -109,7 +109,8 @@ const Teaching = () => {
       </div>
       <div className="row justify-content-md-center">
         <h1 className="col col-lg-12">{t("teaching.teach_t5")}:</h1>
-
+        </div>
+        <div className="row justify-content-md-center">
         <div
           dangerouslySetInnerHTML={{ __html: t("teaching.teach_p14") }}
           className="col col-lg-12 text"
