@@ -40,6 +40,66 @@
     margin: 35px -42px;
 }
 
+@media (max-width: 1399px) {
+    #teachYancen{
+        margin-top: 30px;
+        height: 100%;
+    }
+    #templeHorses{
+        margin-top: 30px;
+        height: 100%;
+    }
+    #aridHorse{
+        margin-top: 40px;
+        height: 100%;
+    }
+    #YancenClimbingGym{
+        margin-top: 80px;
+        height: 100%;
+    }
+    #YancenDancing{
+        margin-top: 110px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1199px) {
+    #teachYancen{
+        margin-top: 90px;        
+    }
+    #templeHorses{
+        margin-top: 70px;        
+    }
+    #aridHorse{
+        margin-top: 60px;        
+    }
+    #YancenClimbingGym{
+        margin-top: 40px;        
+    }
+    #YancenDancing{
+        margin-top: 40px;        
+    }
+}
+
+@media (max-width: 991px) {
+    #teachYancen{
+        margin: 20px 0;
+    }
+    #templeHorses{
+        margin: 20px 0;
+    }
+    #aridHorse{
+        margin: 20px 0;
+    }
+    #YancenClimbingGym{
+        margin: 20px 0;
+    }
+    #YancenDancing{
+        margin: 20px 0;
+    }
+}
+
+
 /* .col>[className^="col-"]{
     border: 1px solid red;
 }

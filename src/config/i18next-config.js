@@ -26,7 +26,7 @@ i18n
           },
           home: {
             home_t1: "Hi, I'm",
-            name: "- Yancen Diemberger -",
+            name: "Yancen Diemberger",
             welcome:
               "Welcome to my website. Here you can find out about my research, teaching interests and activities. If you want to know more, please get in touch: <a href='mailto:yd308@exeter.ac.uk'>yd308@exeter.ac.uk</a>",
           },
@@ -190,7 +190,9 @@ i18n
           news: {
             news_t1: "What I’m doing at the moment",
             news_p1:
-              "I am currently undertaking preliminary research in Argentina. I continue to offer ",
+              "I am currently undertaking preliminary research in Argentina that can be followed through my ",
+             news_p1f: "instagram",
+             news_p1g: ". I continue to offer ",
             news_p1a: "horse-related services ",
             news_p1b: "depending on your location, and ",
             news_p1c: "virtual language classes.",
@@ -213,7 +215,7 @@ i18n
           },
           home: {
             home_t1: "Hola, soy",
-            name: "- Yancen Diemberger -",
+            name: "Yancen Diemberger",
             welcome:
               "Bienvenido a mi página web. Aquí puedes conocer más sobre mi investigación, docencia, intereses y actividades. Si quieres saber más, puedes encontrame aquí: <a href='mailto:yd308@exeter.ac.uk'>yd308@exeter.ac.uk</a>",
           },
@@ -379,7 +381,9 @@ i18n
           news: {
             news_t1: "Novedades",
             news_p1:
-              "Actualmente estoy realizando una investigación preliminar en Argentina que se puede seguir a través de mi instagram. Sigo ofreciendo ",
+              "Actualmente estoy realizando una investigación preliminar en Argentina que se puede seguir a través de mi ",
+            news_p1f: "instagram",
+            news_p1g: ". Sigo ofreciendo ",
             news_p1a: "servicios relacionados con caballos ",
             news_p1b: "dependiendo de la ubicación y ",
             news_p1c: "clases virtuales de idiomas.",

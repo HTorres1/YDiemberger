@@ -3,43 +3,40 @@ import { Link } from "react-router-dom";
 import "./navbar.css";
 import i18next, { t } from "i18next";
 import { useTranslation } from "react-i18next";
-import spa from "../../media/ico/spain.png"
-import uk from "../../media/ico/united-kingdom.png"
-import usa from "../../media/ico/usa.png"
+import spa from "../../media/ico/spain.png";
+import uk from "../../media/ico/united-kingdom.png";
+import usa from "../../media/ico/usa.png";
 
 const Navbar = () => {
   /* const [dropdown, setDropdown] = useState(false);  */
-  const {t, i18n} = useTranslation();
-  
+  const { t, i18n } = useTranslation();
 
-   function changeToSpanish () {
+  function changeToSpanish() {
     i18n.changeLanguage("es");
-  } 
+  }
 
-  function changeToEnglish () {
+  function changeToEnglish() {
     i18n.changeLanguage("en");
   }
 
   return (
-    <div className="nav">      
+    <div className="nav">
       <div id="navbar" className="container">
-       {/*  <div className="hola">Holaa</div> */}
-        <ul >
+        {/*  <div className="hola">Holaa</div> */}
+        <ul>
           <Link to="/">
             <li className="noselect" link to="/">
-            {t("nav.nav1")}
-            </li>
-          </Link>
+              {t("nav.nav1")}
+            </li>            
+          </Link>          
           <Link to="/about">
-            <li className="noselect">
-              {t("nav.nav2")}
-            </li>
+            <li className="noselect">{t("nav.nav2")}</li>
           </Link>
           <Link to="/PHD">
             <li
               className="noselect"
               /* onMouseEnter={() => setDropdown(true)}
-              onMouseLeave={() => setDropdown(false)}         */      
+              onMouseLeave={() => setDropdown(false)}         */
             >
               {t("nav.nav3")}
             </li>
@@ -61,8 +58,14 @@ const Navbar = () => {
           </Link> */}
         </ul>
       </div>
-      <a className="change" onClick={changeToSpanish}>ESP</a>
-      <a className="change" onClick={changeToEnglish}>ENG</a>
+      <div id="lang">
+        <a className="change" onClick={changeToSpanish}>
+          ESP
+        </a>
+        <a className="change" onClick={changeToEnglish}>
+          ENG
+        </a>
+      </div>
       {/* <img id="spa" src={spa} alt="Spanish" onClick={changeToSpanish}/>      
       <img id="uk" src={uk} alt="English" onClick={changeToEnglish}/> */}
     </div>

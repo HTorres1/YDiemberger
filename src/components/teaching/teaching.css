@@ -53,6 +53,27 @@ h1{
 #horseplains{
     margin: 25px 0;
 }
+
+@media (max-width: 1399px) {
+    #horseplains{
+        height: 100%;
+        margin-top: 60px;
+    }
+    .teachingOnTheDirt{
+        height: 100%;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #horseplains{
+        margin-top: 40px;
+    }
+    .teachingOnTheDirt{
+        margin-top: 45px;
+    }
+}
+
 /* ideal size for this one */
 /* #horsedog{
     height: 700px;

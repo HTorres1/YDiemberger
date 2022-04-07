@@ -70,27 +70,29 @@ const NGO = () => {
         />
       </div>
       <div className="row justify-content-md-center">
-        <div>
+        
           <h2 className="col col-lg-12 nowrap">{t("ngo.ngo_t4")}</h2>
-        </div>
+          </div>
         <div className="row justify-content-md-center">
           <div
             dangerouslySetInnerHTML={{ __html: t("ngo.ngo_p4") }}
             className="col col-lg-7 text"
           />
           <img
+            id="earthquake"
             className="col col-lg-5 nowrap"
             src={Earhquake}
             alt="Nepal Earthquake"
           />
         </div>
-      </div>
+      
 
       <div className="row justify-content-md-center">
         <h2 className="col col-lg-12 nowrap">{t("ngo.ngo_t5")}</h2>
       </div>
       <div className="row justify-content-md-center">
         <img
+          id="stories"
           className="col col-lg-5 nowrap"
           src={stories}
           alt="Collecting stories"
@@ -115,6 +117,7 @@ const NGO = () => {
       <div className="row justify-content-md-center ngolast">
         <h2 className="col col-lg-12 nowrap">{t("ngo.ngo_t7")}</h2>
         <img
+          id="fundraising"
           className="col col-lg-5 nowrap"
           src={fundraising2}
           alt="Fundraising"
